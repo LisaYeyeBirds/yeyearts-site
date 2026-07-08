@@ -37,7 +37,7 @@
 
   --red-accent: #b00010;
 
-  --font-logo: clamp(1.35rem, 2vw, 1.8rem);
+  --font-logo: clamp(1rem, 2vw, 1.8rem);
   --font-menu: 0.82rem;
   --font-eyebrow: 0.74rem;
   --font-h1: clamp(6rem, 18vw, 15rem);
