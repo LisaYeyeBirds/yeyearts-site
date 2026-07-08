@@ -1,0 +1,81 @@
+GUIDE RAPIDE - SITE YEYEARTS
+
+1. FICHIERS
+
+- index.html : modifier les textes et l'ordre des sections.
+- style.css : modifier couleurs, typographies, espacements et mise en page.
+- script.js : petit script du header au scroll.
+- fonts/ : fichiers de la typo Tigre Kults.
+
+
+2. SECTIONS DANS index.html
+
+- Header : logo + menu.
+- S1 / Hero : section Brand kit avec collage, grand titre et texte d'accueil.
+- S2 / Terrain : nuages flottants "mon terrain de jeu".
+- S3 / Prestations : panneau noir + offres graphiques.
+- S4 / Projet perso : moodboard vivant.
+- S5 / Approche : fond noir, texte plus artistique.
+- S6 / Contact : email.
+- Footer : bas de page.
+
+
+3. TYPOGRAPHIES
+
+La typo Tigre Kults est declaree en haut de style.css :
+
+@font-face {
+  font-family: "Tigre Kults";
+  src: url("fonts/TigreKults-Regular.woff2") format("woff2");
+}
+
+Elle est utilisee pour le logo, le grand titre et quelques annotations.
+Les textes longs restent en Inter pour garder une bonne lisibilite.
+
+
+4. PALETTE
+
+Dans style.css, tout en haut dans :root :
+
+--cream: #fffff6;
+--soft-cream: #f4f5ed;
+--warm-grey: #c4c2ba;
+--charcoal: #222124;
+--black: #090301;
+--acid-yellow: #cac425;
+--olive: #a6943a;
+--khaki-grey: #869189;
+--sand: #edc3a1;
+--tan: #bb9b6d;
+--brown: #503b23;
+--teal: #5c9396;
+--blue-teal: #4870a0;
+--deep-teal: #1c2d2c;
+--red-accent: #b00010;
+
+
+5. NUAGE FLOTTANT
+
+Dans index.html, cherche :
+
+<div class="cloud-field"
+
+Chaque element :
+
+<span class="cloud-pill">...</span>
+
+correspond a un nuage.
+
+Dans style.css :
+
+.cloud-pill
+
+gere la forme, les couleurs, le flottement et le grossissement au survol.
+
+
+6. METTRE A JOUR SUR NETLIFY
+
+1. Zippe le contenu du dossier SITE YYA.
+2. Va dans Netlify > ton projet > Production deploys.
+3. Glisse le zip dans la zone d'upload.
+4. Netlify remplace automatiquement le site.
