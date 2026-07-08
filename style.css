@@ -299,7 +299,7 @@ button {
   color: var(--red-accent);
   font-size: var(--font-eyebrow);
   font-weight: 900;
-  letter-spacing: 0.35em;
+  letter-spacing: 0.5em;
   text-transform: uppercase;
 }
 
