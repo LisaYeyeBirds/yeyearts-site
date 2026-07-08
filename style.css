@@ -303,7 +303,12 @@ button {
   text-transform: uppercase;
 }
 
-.hero-copy .eyebrow,
+.hero-copy .eyebrow {
+  color: var(--cream);
+  letter-spacing: 0.28em;
+  margin-bottom: 2rem;
+}
+
 .split-section .eyebrow,
 .black-section .eyebrow {
   color: var(--cream);
